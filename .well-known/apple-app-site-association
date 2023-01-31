@@ -1,0 +1,18 @@
+{
+   "appclips": {
+      "apps": [
+         "UACPD8D292.se.ambi.podcast.Clip"
+      ]
+   },
+   "applinks":{
+      "apps":[],
+      "details":[
+         {
+            "appID": "UACPD8D292.se.ambi.podcast.Clip",
+            "paths": [
+               "/podcast/*"
+            ]
+         }
+      ]
+   }
+}
