@@ -1,0 +1,17 @@
+---
+title: Nutrifio
+subtitle: Obj-C, Swift, iOS, WatchKit, Node JS
+layout: default
+modal-id: 5
+date: 2014-07-15
+img: nutrifio.png
+thumbnail: nutrifio-thumbnail.png
+alt: image-alt
+project-date: June 2014 - Present
+client: Co-Founded
+category: iOS Engineering
+description: The purpose of Nutrifio is to help people keep track of their dietary calories. It's hard to decide what to focus on so I'm making all my decisions based on data. For this purpose I've learned Mixpanel and will be using it to A/B-test different solutions. This product includes an iOS App, a Today Extension and an Apple Watch app.
+href: https://nutrifio.jagcesar.se
+app-id: 924999887
+
+---

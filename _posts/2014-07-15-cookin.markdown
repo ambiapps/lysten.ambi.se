@@ -1,0 +1,17 @@
+---
+title: Kookin
+subtitle: An amazing recipe manager.
+layout: default
+modal-id: 1
+date: 2014-07-15
+img: cookin.png
+thumbnail: cookin-thumbnail.png
+alt: image-alt
+project-date: August 2016 - Present
+client: Founded
+category: iOS Engineering, CloudKit,
+description: Kookin is the place for you to store your favorite recipes and browse new ones. We decided to use CloudKit to host our users data, which means there is no backend that we have to maintain.
+href: https://apps.apple.com/se/app/kookin/id1102236212
+app-id: 1102236212
+
+---

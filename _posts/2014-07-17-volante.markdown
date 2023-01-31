@@ -1,0 +1,17 @@
+---
+title: Volante
+subtitle: A user friendly trip journal
+layout: default
+modal-id: 3
+date: 2014-07-17
+img: volante.png
+thumbnail: volante-thumbnail.png
+alt: image-alt
+project-date: Project date
+client: Client
+category: Category
+description: Tired of manually maintaining your drive journal? Let Volante handle it for you, so you get more time behind the wheel.
+href: https://apps.apple.com/us/app/volante/id1352066050?mt=8
+app-id: 1352066050
+
+---

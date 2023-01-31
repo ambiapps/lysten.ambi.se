@@ -1,0 +1,17 @@
+---
+title: Lysten
+subtitle: A privacy focused Podcast player
+layout: default
+modal-id: 2
+date: 2014-07-15
+img: lysten.png
+thumbnail: lysten-thumbnail.png
+alt: image-alt
+project-date: August 2016 - Present
+client: Founded
+category: iOS Engineering, CloudKit,
+description: Kookin is the place for you to store your favorite recipes and browse new ones. We decided to use CloudKit to host our users data, which means there is no backend that we have to maintain.
+href: https://apps.apple.com/app/apple-store/id1579212581?pt=60123802&ct=homepage&mt=8
+app-id: 1102236212
+
+---

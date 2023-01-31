@@ -1,0 +1,52 @@
+lsi: false
+highlighters: true
+permalink: none
+baseurl: "https://ambi.se"
+
+# Site settings
+title: Ambi Studio - Apps For Everyone
+company: Ambi Studio
+email: cesar@ambi.se
+description: "Accessible Apps For Everyone"
+
+
+# Team names, titles and social links
+people:
+- name: César
+  pic: cesar
+  position: iOS Engineer
+  social:
+    - title: github
+      url: https://github.com/JagCesar
+    - title: linkedin
+      url: https://www.linkedin.com/in/jagcesar
+- name: Sofia
+  pic: sofia
+  position: Illustrator and iOS engineer
+  social:
+    - title: twitter
+      url: https://twitter.com/sclarsson
+- name: Jan
+  pic: jan
+  position: Illustrator and iOS engineer
+  social:
+    - title: github
+      url: http://gitHub.com/n0rthk1n9
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/ambiapps
+  - title: linkedin
+    url: https://www.linkedin.com/company/ambistudio/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+include: [".well-known"]
