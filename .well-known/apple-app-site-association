@@ -8,7 +8,7 @@
       "apps":[],
       "details":[
          {
-            "appID": "UACPD8D292.se.ambi.podcast.Clip",
+            "appID": "UACPD8D292.se.ambi.podcast",
             "paths": [
                "/podcast/*"
             ]
