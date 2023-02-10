@@ -10,7 +10,7 @@
          {
             "appID": "UACPD8D292.se.ambi.podcast",
             "paths": [
-               "/podcast/*"
+               "/share"
             ]
          }
       ]
