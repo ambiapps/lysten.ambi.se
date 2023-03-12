@@ -1,5 +1,78 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta name="apple-itunes-app" content="app-clip-bundle-id=se.ambi.podcast.Clip, app-id=1579212581, app-clip-display=card">
-    </head>
+
+<head>
+    <title>Lysten - Podcast Player</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="me" href="https://mastodon.social/@ambiApps">
+    <link rel="icon" href="/img/favicon.ico">
+    <meta name="apple-itunes-app"
+        content="app-clip-bundle-id=se.ambi.podcast.Clip, app-id=1579212581, app-clip-display=card">
+</head>
+
+<body>
+    <main id="container">
+        <div id="title">Listen to this podcast</div>
+        <div id="instructions">
+            <br>
+            <p>Download Lysten</p>
+            <img id="appStore" src="/img/appstore.svg" alt="Download on the App Store icon">
+            <br>
+            <br>
+            <a href="" id="openApp">
+                <p>Click here to open</p>
+            </a>
+        </div>
+    </main>
+    <script>
+        // console.log("hello");
+
+        // const params = new Proxy(new URLSearchParams(window.location.search), {
+        //     get: (searchParams, prop) => searchParams.get(prop),
+        // });
+        // let escapedfeedURL = params.podcast;
+        // let episodeGUID = params.episode;
+
+        // let feedURL = decodeURIComponent(decodeURIComponent(escapedfeedURL))
+
+        // console.log(feedURL);
+        // console.log(episodeGUID);
+        // console.log(window.location.href);
+
+        let lystenURL = window.location.href.replace(/^http:\/\//i, 'lysten://').replace(/^https:\/\//i, 'lysten://');
+        document.getElementById("openApp").href = lystenURL;
+    </script>
+</body>
+
+<style>
+    body {
+        background-color: #FBFBFD;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: -apple-system, SF Pro Text, Helvetica Neue, sans-serif
+    }
+
+    #title {
+        font-size: 26px;
+    }
+
+    #appStore {
+        display: inline-block;
+        height: 60px;
+    }
+
+    #container {
+        background-color: #FBFBFD;
+        padding: 50px 50px 50px 50px;
+        border-radius: 17px;
+        box-shadow: 14px 14px 48px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        margin: 16px;
+    }
+</style>
+
 </html>
