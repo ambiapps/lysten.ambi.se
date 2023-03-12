@@ -12,19 +12,24 @@
 </head>
 
 <body>
+    <div id="toolbar-banner">
+        <div id="toolbar-brand">
+            <img src="/img/lystenLogo.png" id="toolbar-logo" alt="Lysten logo">
+            <div id="toolbar-title">Lysten</div>
+        </div>
+    </div>
     <main id="container">
-        <div id="title">Listen to this podcast</div>
-        <div id="instructions">
-            <br>
-            <p>Download Lysten</p>
-            <a href="https://apple.co/3kZQiBu">
-                <img id="appStore" src="/img/appstore.svg" alt="Download on the App Store icon">
-            </a>
-            <br>
-            <br>
-            <a href="" id="openApp">
-                <p>Click here to open</p>
-            </a>
+        <div id="contents">
+            <div id="instructions">
+                <div id="title">Listen to this podcast</div>
+                <p>Download Lysten</p>
+                <a href="https://apple.co/3kZQiBu">
+                    <img id="appStore" src="/img/appstore.svg" alt="Download on the App Store icon">
+                </a>
+                <a href="" id="openApp">
+                    <p>Click here to open</p>
+                </a>
+            </div>
         </div>
     </main>
     <script>
@@ -53,7 +58,38 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: -apple-system, SF Pro Text, Helvetica Neue, sans-serif
+        font-family: -apple-system, SF Pro Text, Helvetica Neue, sans-serif;
+    }
+
+    #contents {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #toolbar-banner {
+        padding: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #toolbar-brand {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+
+    #toolbar-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    #toolbar-title {
+        font-size: 24px;
+        padding-left: 10px;
     }
 
     #title {
