@@ -26,22 +26,20 @@
         </div>
     </main>
     <script>
-        // console.log("hello");
-
-        // const params = new Proxy(new URLSearchParams(window.location.search), {
-        //     get: (searchParams, prop) => searchParams.get(prop),
-        // });
-        // let escapedfeedURL = params.podcast;
-        // let episodeGUID = params.episode;
-
-        // let feedURL = decodeURIComponent(decodeURIComponent(escapedfeedURL))
-
-        // console.log(feedURL);
-        // console.log(episodeGUID);
-        // console.log(window.location.href);
+        const params = new Proxy(new URLSearchParams(window.location.search), {
+            get: (searchParams, prop) => searchParams.get(prop),
+        });
+        let escapedfeedURL = params.podcast;
+        let episodeGUID = params.episode;
 
         let lystenURL = window.location.href.replace(/^http:\/\//i, 'lysten://').replace(/^https:\/\//i, 'lysten://');
         document.getElementById("openApp").href = lystenURL;
+
+        if (episodeGUID == undefined) {
+            document.getElementById("title").innerHTML = "Listen to this Podcast";
+        } else {
+            document.getElementById("title").innerHTML = "Listen to this Episode";
+        }
     </script>
 </body>
 
